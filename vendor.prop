@@ -45,3 +45,6 @@ ro.surface_flinger.set_touch_timer_ms=200
 
 # Sensors
 persist.vendor.sensors.debug.hal=0
+
+# Pen
+persist.vendor.parts.pen=2
