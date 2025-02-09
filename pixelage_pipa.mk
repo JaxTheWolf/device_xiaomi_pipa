@@ -9,17 +9,18 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 
 # Inherit some common lineage stuff.
-$(call inherit-product, vendor/aosp/config/common_full_tablet_wifionly.mk)
+$(call inherit-product, vendor/pixelage/config/common_full_tablet_wifionly.mk)
 
 # Inherit from pipa device
 $(call inherit-product, device/xiaomi/pipa/device.mk)
 
-PRODUCT_NAME := aosp_pipa
+TARGET_BOOT_ANIMATION_RES := 1440
+PRODUCT_NAME := pixelage_pipa
 PRODUCT_DEVICE := pipa
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := 23043RP34G
-
+PIXELAGE_MAINTAINER := oko123,mx7111
 PRODUCT_CHARACTERISTICS := tablet
 TARGET_SUPPORTS_QUICK_TAP := false
 

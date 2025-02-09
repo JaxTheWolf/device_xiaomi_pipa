@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_pipa.mk
+    $(LOCAL_DIR)/pixelage_pipa.mk
